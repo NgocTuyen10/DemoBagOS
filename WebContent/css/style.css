@@ -1,0 +1,64 @@
+#heading {
+	padding: 20px;
+	height: 20px;
+	margin-bottom: 10px;
+	background: #dddddd;
+	border: 1px solid darkGray;
+}
+
+#sidebarLeft {
+	border: thin solid lightGray;
+	padding: 9px;
+	width: 100px;
+	background: #eeeeee;
+	height: 500px;
+	top: 71px;
+}
+
+#sidebarLeft a {
+	display: block;
+}
+
+#sidebarLeft a:hover {
+	color: #bf0000;
+}
+
+#content {
+	padding: 5px;
+	border: thin solid lightGray;
+	position: absolute;
+	right: 8px;
+	left: 130px;
+	height: 515px;
+	top: 72px;
+}
+
+.header {
+	font-size: 1.4em;
+	font-style: italic;
+	font-family: Palatino;
+	text-align: center;
+}
+.tableTable {   
+   border-collapse:collapse;
+   border:1px solid #000000;
+}
+
+.tableTableHeader {
+   text-align:center;
+   background:none repeat scroll 0 0 #B5B5B5;
+   border-bottom:1px solid #000000;  
+   padding:2px;
+   font-size: 12px;
+}
+
+.tableTableOddRow {
+   text-align:center;
+   background:none repeat scroll 0 0 #FFFFFFF;	
+}
+
+.tableTableEvenRow {
+   text-align:center;
+   background:none repeat scroll 0 0 #D3D3D3;
+}
+
